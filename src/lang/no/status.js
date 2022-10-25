@@ -1,0 +1,20 @@
+module.exports = {
+    ACTIVE: 'Aktiv',
+    INACTIVE: 'Inaktiv',
+    TWILIO: 'Twilio',
+    SUCCESSFUL: 'Vellykket',
+    UNSUCCESSFUL: 'Feilet',
+    ROLE_ADMIN: "Admin",
+    ROLE_ASSISTANT: "Assistant",
+    ROLE_DEFAULT: "Standard",
+    ROLE_EMPLOYEE: "Ansatt",
+    ROLE_RECEPTION: "Resepsjon",
+    ROLE_SECURITY: "Sikkerhet",
+    ROLE_SUPER_ADMIN: "Superadmin",
+    status0: 'Ikke i bruk',
+    status1: 'Aktiv',
+    status2: 'Terminert',
+    // 30.09.2022
+    en: 'Engelsk',
+    no: 'Norsk',
+}
