@@ -1,0 +1,109 @@
+{
+  "common": {
+    "welcome": "Vilkomen ....",
+    "in": "in",
+    "out": "out",
+    "secondsWithThreeDots": "seconds..."
+  },
+  "components": {
+    "countryCode": {
+      "label": "Country code"
+    }
+  },
+  "requirments": {
+    "title": "Requirements",
+    "enterRequirments": "Please accept the given requirements"
+  },
+  "personalInformation": {
+    "title": "Personal Information",
+    "enterPersonalInfo": "Please enter your personal information",
+    "label": {
+      "firstname": "First name",
+      "lastname": "Last name",
+      "company": "Company"
+    },
+    "placeholder": {
+      "enterYourFirstname": "Enter your first name",
+      "enterYourLastname": "Enter your last name",
+      "enterYourCompany": "Enter the company where you work"
+    }
+  },
+  "phoneNumber": {
+    "title": "Phone Number",
+    "enterPhoneNumber": "Please enter your phone number to check out",
+    "label": {
+      "phoneNumber": "Phone number"
+    },
+    "placeholder": {
+      "enterYourPhoneNumber": "Enter your phone number"
+    }
+  },
+  "visitInformation": {
+    "title": "Visit Information",
+    "enterVisitInfo": "Please enter information about your visit",
+    "label": {
+      "host": "Hosts",
+      "employee": "Employee",
+      "department": "Department"
+    },
+    "placeholder": {
+      "enterYourHostName": "Enter your host's name",
+      "choseDepartmentForYourVisit": "Chose a department for your visit"
+    }
+  },
+  "steps": {
+    "phoneNumber": "Phone Number",
+    "personalInfo": "Personal Information",
+    "visitInfo": "Visit Information"
+  },
+  "pages": {
+    "login": {
+      "info": "To initialize this device and connect to the appropriate client, please enter the 6-characters device code",
+      "label": {
+        "deviceCode": "Device code"
+      },
+      "placeholder": {
+        "enterDeviceCode": "Enter the device code"
+      }
+    },
+    "thankyou": {
+      "check": "You have successfully checked",
+      "hostHasBeenNotified": "Your host has been notified and will meet you in a moment.",
+      "goodbye": "Thank you for your visit and hope to see you again.",
+      "redirect": "You will be redirected on the starting screen in"
+    },
+    "home": {
+      "visitFinished": "Your visit had finished?",
+      "visitSomeone": "Visiting someone?",
+      "digitizationFactory": "The digitization factory"
+    }
+  },
+  "button": {
+    "connect": "Connect",
+    "checkIn": "Check in",
+    "next": "Next",
+    "previous": "Previous",
+    "checkOut": "Check out"
+  },
+  "errorsFromYup": {
+    "required": {
+      "firstName": "First name is required",
+      "lastName": "Last name is required",
+      "phoneNumber": "Phone number is required",
+      "countryCode": "Country Code is required",
+      "host": "Host is required",
+      "employee": "Employee is required",
+      "department": "Department is required",
+      "requirements": "Please check all the required boxes!"
+    },
+    "maxCharacters": {
+      "firstName": "First Name can not exceed 20 characters",
+      "lastName": "Last Name can not exceed 20 characters",
+      "company": "Company Name can not exceed 20 characters",
+      "phoneNumber": "The phone number must be max. 9 characters"
+    },
+    "notValid": {
+      "phoneNumber": "Phone number is not valid"
+    }
+  }
+}
