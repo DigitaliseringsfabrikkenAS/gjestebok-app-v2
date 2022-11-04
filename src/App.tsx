@@ -25,9 +25,16 @@ import { Login } from 'pages/Auth/Login';
 import { Layout } from 'common/components/Layouts';
 import { Helmet } from 'common/components/Helmet';
 import { AbsoluteSpinner } from 'common/components/Spinners';
+import { useEffect } from 'react';
 
 // Declarations
 const queryClient = new QueryClient();
+const timeOutDelay = 1000 * 60 * 30;
+let timeOutId = setTimeout(() => window.location.reload(), timeOutDelay);
+function checkLastAction() {
+  clearTimeout(timeOutId);
+  timeOutId = setTimeout(() => window.location.reload(), timeOutDelay);
+}
 
 const App = () => {
   const navigate = useNavigate();
@@ -42,6 +49,19 @@ const App = () => {
     onSignOut: handleLogout,
     isNotFound: () => navigate('/404page'),
   });
+
+  // Refresh page on 30 min inactivity
+  useEffect(() => {
+    window.addEventListener('mousemove', checkLastAction);
+    window.addEventListener('touchstart', checkLastAction);
+    window.addEventListener('keydown', checkLastAction);
+
+    return () => {
+      window.removeEventListener('mousemove', checkLastAction);
+      window.removeEventListener('touchstart', checkLastAction);
+      window.removeEventListener('keydown', checkLastAction);
+    };
+  }, []);
 
   return (
     <QueryClientProvider client={queryClient}>
