@@ -1,109 +1,109 @@
 {
   "common": {
-    "welcome": "Vilkomen ....",
-    "in": "in",
-    "out": "out",
-    "secondsWithThreeDots": "seconds..."
+    "welcome": "Velkommen ....",
+    "in": "inn",
+    "out": "ut",
+    "secondsWithThreeDots": "sekunder..."
   },
   "components": {
     "countryCode": {
-      "label": "Country code"
+      "label": "Landskode"
     }
   },
   "requirments": {
-    "title": "Requirements",
-    "enterRequirments": "Please accept the given requirements"
+    "title": "Krav",
+    "enterRequirments": "Vennligst godta kravene"
   },
   "personalInformation": {
-    "title": "Personal Information",
-    "enterPersonalInfo": "Please enter your personal information",
+    "title": "Personlig informasjon",
+    "enterPersonalInfo": "Vennligst fyll in din personlig informasjon",
     "label": {
-      "firstname": "First name",
-      "lastname": "Last name",
-      "company": "Company"
+      "firstname": "Fornavn",
+      "lastname": "Etternavn",
+      "company": "Bedrift"
     },
     "placeholder": {
-      "enterYourFirstname": "Enter your first name",
-      "enterYourLastname": "Enter your last name",
-      "enterYourCompany": "Enter the company where you work"
+      "enterYourFirstname": "Skriv inn ditt fornavn",
+      "enterYourLastname": "Skriv inn ditt etternavn",
+      "enterYourCompany": "Skriv inn bedriften du jobber hos"
     }
   },
   "phoneNumber": {
-    "title": "Phone Number",
-    "enterPhoneNumber": "Please enter your phone number to check out",
+    "title": "Telefonnummer",
+    "enterPhoneNumber": "Vennligst skriv inn telefonnummeret ditt for å sjekke ut",
     "label": {
-      "phoneNumber": "Phone number"
+      "phoneNumber": "Telefonnummer"
     },
     "placeholder": {
-      "enterYourPhoneNumber": "Enter your phone number"
+      "enterYourPhoneNumber": "Skriv inn ditt telefonnummer"
     }
   },
   "visitInformation": {
-    "title": "Visit Information",
-    "enterVisitInfo": "Please enter information about your visit",
+    "title": "Besøksinformasjon",
+    "enterVisitInfo": "Vennligst skriv inn informasjon om besøket ditt",
     "label": {
-      "host": "Hosts",
-      "employee": "Employee",
-      "department": "Department"
+      "host": "Vert",
+      "employee": "Ansatt",
+      "department": "Avdeling"
     },
     "placeholder": {
-      "enterYourHostName": "Enter your host's name",
-      "choseDepartmentForYourVisit": "Chose a department for your visit"
+      "enterYourHostName": "Skriv inn personen du skal besøke",
+      "choseDepartmentForYourVisit": "Velg avdelingen du skal besøke"
     }
   },
   "steps": {
-    "phoneNumber": "Phone Number",
-    "personalInfo": "Personal Information",
-    "visitInfo": "Visit Information"
+    "phoneNumber": "Telefonnummer",
+    "personalInfo": "Personlig informasjon",
+    "visitInfo": "Besøksinformasjon"
   },
   "pages": {
     "login": {
-      "info": "To initialize this device and connect to the appropriate client, please enter the 6-characters device code",
+      "info": "For å klargjøre denne enheten og koble den til rett kunde, vennligst skriv inn den 6-sifferede enhetskoden",
       "label": {
-        "deviceCode": "Device code"
+        "deviceCode": "Enhetskode"
       },
       "placeholder": {
-        "enterDeviceCode": "Enter the device code"
+        "enterDeviceCode": "Skriv inn enhetskoden"
       }
     },
     "thankyou": {
-      "check": "You have successfully checked",
-      "hostHasBeenNotified": "Your host has been notified and will meet you in a moment.",
-      "goodbye": "Thank you for your visit and hope to see you again.",
-      "redirect": "You will be redirected on the starting screen in"
+      "check": "Du har sjekket inn",
+      "hostHasBeenNotified": "Din vert har fått beskjed at du er her og vil møte deg snart.",
+      "goodbye": "Takk for besøket!",
+      "redirect": "Du vil bli tatt til startskjermen om..."
     },
     "home": {
-      "visitFinished": "Your visit had finished?",
-      "visitSomeone": "Visiting someone?",
-      "digitizationFactory": "The digitization factory"
+      "visitFinished": "Er besøket ditt ferdig?",
+      "visitSomeone": "Skal du besøke noen?",
+      "digitizationFactory": "Digitaliseringsfabrikken AS"
     }
   },
   "button": {
-    "connect": "Connect",
-    "checkIn": "Check in",
-    "next": "Next",
-    "previous": "Previous",
-    "checkOut": "Check out"
+    "connect": "Koble til",
+    "checkIn": "Sjekk inn",
+    "next": "Neste",
+    "previous": "Forrige",
+    "checkOut": "Sjekk ut"
   },
   "errorsFromYup": {
     "required": {
-      "firstName": "First name is required",
-      "lastName": "Last name is required",
-      "phoneNumber": "Phone number is required",
-      "countryCode": "Country Code is required",
-      "host": "Host is required",
-      "employee": "Employee is required",
-      "department": "Department is required",
-      "requirements": "Please check all the required boxes!"
+      "firstName": "Fornavn er påkrevd",
+      "lastName": "Etternavn er påkrevd",
+      "phoneNumber": "Telefonnummer er påkrevd",
+      "countryCode": "Landskode er påkrevd",
+      "host": "Vert er påkrevd",
+      "employee": "Ansatt er påkrevd",
+      "department": "Avdeling er påkrevd",
+      "requirements": "Vennligst fyll ut de påkrevde feltene!"
     },
     "maxCharacters": {
-      "firstName": "First Name can not exceed 20 characters",
-      "lastName": "Last Name can not exceed 20 characters",
-      "company": "Company Name can not exceed 20 characters",
-      "phoneNumber": "The phone number must be max. 9 characters"
+      "firstName": "Fornavn kan ikke være lenger enn 20 bokstaver",
+      "lastName": "Etternavn kan ikke være lenger enn 20 bokstaver",
+      "company": "Bedriftsnavn kan ikke være lenger enn 20 bokstaver",
+      "phoneNumber": "Telefonnummer kan maks være 9 siffer"
     },
     "notValid": {
-      "phoneNumber": "Phone number is not valid"
+      "phoneNumber": "Telefonnummer er ugyldig"
     }
   }
 }
