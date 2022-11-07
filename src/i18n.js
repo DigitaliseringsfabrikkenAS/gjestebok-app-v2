@@ -30,13 +30,13 @@ const resources = {
 };
 
 const getLanguage = () => {
-  const langugage = localStorage.getItem('i18nextLng');
+  let langugage = localStorage.getItem('i18nextLng');
 
   if (!langugage) {
-    return reactAppLanguage;
+    langugage = reactAppLanguage;
   }
 
-  return langugage;
+  return langugage.toLowerCase();
 };
 
 i18next.use(initReactI18next).use(LanguageDetector).init({
